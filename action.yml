@@ -1,16 +1,16 @@
-name: 'Github Tag Bump'
-description: 'Bump and push git tag on merge'
-author: 'Nick Sjostrom'
+name: 'Github Tag on date'
+description: 'Create and push git tag based on date YYYYMMXXX on merge'
+author: 'Nick Sjostrom - Eric Touchard'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 outputs:
   new_tag:
-    description: 'Generated tag'
+    description: 'Generated tag base on Date'
   tag:
     description: 'The latest tag after running this action'
-  part:
-    description: 'The part of version which was bumped'
+  pre_tag:
+    description: 'The tag before running the action'
 branding:
   icon: 'git-merge'  
   color: 'purple'
