@@ -14,3 +14,4 @@ jobs:
       uses: iv1-infovista/github-tag-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
