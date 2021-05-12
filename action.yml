@@ -11,6 +11,3 @@ outputs:
     description: 'The latest tag after running this action'
   pre_tag:
     description: 'The tag before running the action'
-branding:
-  icon: 'git-merge'  
-  color: 'purple'
