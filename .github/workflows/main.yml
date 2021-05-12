@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Bump version and push tag
-      uses: iv1-infovista/github-tag-action
+      uses: iv1-infovista/github-tag-action@init
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
